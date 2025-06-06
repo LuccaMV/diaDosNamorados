@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cartão do Amor ❤️</title>
+  <link rel="stylesheet" href="estilo.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container-coracoes"></div>
+  <div class="petalas-fundo"></div>
+  
+  <div class="decoracao-fundo">
+    <div class="rosa-decorativa rosa-topo-esquerda"></div>
+    <div class="rosa-decorativa rosa-topo-centro-esquerda"></div>
+    <div class="rosa-decorativa rosa-meio-superior-esquerda"></div>
+    <div class="rosa-decorativa rosa-meio-esquerda"></div>
+    <div class="rosa-decorativa rosa-meio-inferior-esquerda"></div>
+    <div class="rosa-decorativa rosa-baixo-centro-esquerda"></div>
+    <div class="rosa-decorativa rosa-baixo-esquerda"></div>
+    
+    <div class="rosa-decorativa rosa-topo-direita"></div>
+    <div class="rosa-decorativa rosa-topo-centro-direita"></div>
+    <div class="rosa-decorativa rosa-meio-superior-direita"></div>
+    <div class="rosa-decorativa rosa-meio-direita"></div>
+    <div class="rosa-decorativa rosa-meio-inferior-direita"></div>
+    <div class="rosa-decorativa rosa-baixo-centro-direita"></div>
+    <div class="rosa-decorativa rosa-baixo-direita"></div>
+    
+    <div class="rosa-decorativa" style="top: 25%; left: 7%; transform: rotate(-50deg) scale(0.5); animation: flutuar-suave 9s ease-in-out infinite;"></div>
+    <div class="rosa-decorativa" style="top: 75%; left: 8%; transform: rotate(-25deg) scale(0.6); animation: flutuar-suave 6s ease-in-out infinite reverse;"></div>
+    <div class="rosa-decorativa" style="top: 22%; right: 8%; transform: rotate(55deg) scale(0.5) scaleX(-1); animation: flutuar-suave 8s ease-in-out infinite;"></div>
+    <div class="rosa-decorativa" style="top: 72%; right: 9%; transform: rotate(30deg) scale(0.6) scaleX(-1); animation: flutuar-suave 7s ease-in-out infinite reverse;"></div>
+  </div>
+  
+  <div class="container-principal">
+    <div class="moldura-cartao">
+      <div class="textura-papel-base"></div>
+      <div class="manchas-papel"></div>
+      <div class="fibras-papel"></div>
+      <div class="vincos-papel"></div>
+      <div class="brilho-moldura"></div>
+      
+      <div class="cabecalho">
+        <div class="ornamento-superior">
+          <div class="linha-decorativa"></div>
+          <div class="coracao-central">💕</div>
+          <div class="linha-decorativa"></div>
+        </div>
+        
+        <h1 class="titulo" id="nomes-casal">Nosso Amor</h1>
+        <p class="data-inicio">Desde <span id="data-relacionamento">02/07/2022</span></p>
+        
+        <div class="contador-container">
+          <p class="contador-dias" id="contador-dias"></p>
+          <div class="relogio-minimalista">
+            <div class="ponteiro-relogio"></div>
+            <div class="centro-relogio"></div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="galeria-container">
+        <div class="moldura-fotos">
+          <div class="brilho-foto"></div>
+          <div class="slideshow-fotos" id="slideshow-fotos">
+          </div>
+          <div class="indicadores" id="indicadores-fotos"></div>
+        </div>
+        
+        <div class="controles">
+          <button id="botao-anterior" class="botao-navegacao">❮</button>
+          <button id="botao-iniciar" class="botao-principal">
+            <div class="icone-coracao">💕</div>
+            <span class="texto-botao">Iniciar Nossa História</span>
+            <div class="brilho-botao"></div>
+          </button>
+          <button id="botao-proximo" class="botao-navegacao">❯</button>
+        </div>
+      </div>
+      
+      <div class="mensagem-amor">
+        <div class="ornamento-inferior">
+          <div class="linha-decorativa-pequena"></div>
+        </div>
+        <p id="texto-mensagem">Cada momento ao seu lado é uma nova razão para sorrir...</p>
+        <div class="ornamento-inferior">
+          <div class="linha-decorativa-pequena"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="petalas-frente"></div>
+
+  <audio id="musica-fundo" loop>
+    <source src="music/musica-fundo.mp3" type="audio/mpeg">
+  </audio>
+  
+  <script src="script.js"></script>
+</body>
+</html>
