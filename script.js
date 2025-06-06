@@ -3,7 +3,7 @@ const CONFIGURACAO_CLIENTE = {
   nomesCasal: "Lucca & Maria",
   dataInicio: "15/01/2016",
   fotos: ["img/foto-2.jpg", "img/foto-1.jpg", "img/foto-3.jpg"],
-  corPrimaria: "#d63384",
+  corPrimaria: "#b033d6",
   corSecundaria: "#6a0572",
   corFundoInicio: "#fdf2f8",
   corFundoFim: "#fce7f3",
